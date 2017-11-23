@@ -7,7 +7,6 @@ end
 
 
 gem 'rails',          '5.1.4'
-gem 'bcrypt',         '3.1.11'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',           '3.9.1'
 gem 'sass-rails',     '5.0.6'
@@ -17,6 +16,7 @@ gem 'jquery-rails',   '4.3.1'
 gem 'turbolinks',     '5.0.1'
 gem 'jbuilder',       '2.7.0'
 gem 'pg',             '0.21.0'
+gem 'devise',         '4.3.0'
 
 group :development, :test do
   gem 'byebug',       '9.0.6', platform: :mri
@@ -27,6 +27,13 @@ group :development do
   gem 'listen',                '3.0.8'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+end
+
+group :test do
+  gem 'rspec-rails',              '3.7.1'
+  gem 'factory_bot_rails',        '4.8.2'
+  gem 'ffaker',                   '2.7.0'
+  gem 'shoulda-matchers',         '3.1.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
