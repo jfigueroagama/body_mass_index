@@ -1,0 +1,2 @@
+class Bmi < ApplicationRecord
+end
