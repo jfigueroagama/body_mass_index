@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Body Mass Index - Josue Figueroa
 
-Things you may want to cover:
+Description
 
-* Ruby version
+Create a web application to calculate the body mass index given the mass and height of the user. The application must indicate the category accordingly to the standard. You should register as a user in order to use the application and calculate your body mass index.
 
-* System dependencies
+User stories
 
-* Configuration
+As a visitor I should be able to register myself as a user in order to use the body mass calculator
+As a user I should be able to calculate my body mass in order to know if I have overweight or underweight
+What are we going to evaluate ?
 
-* Database creation
+Quality of the code
+Logic
+Architecture used
+Plus
 
-* Database initialization
+Use Node.js or Ruby on Rails in the backend
+Add tests - TDD/BDD
+Use angular or any other JS framework
+Use a CSS framework
+Rules
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can use the language of your preferene in the backend
+The code must be uploaded to a github repository
+The application must be deployed to heroku
+HAVE FUN CODING !
