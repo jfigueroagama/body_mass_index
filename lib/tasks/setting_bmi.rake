@@ -9,6 +9,8 @@ namespace :setting do
         bmi_category = row[0]
   			bmi_from = row[1]
   			bmi_to = row[2]
+        if bmi_from == nil then bmi_from = 0 end
+        if bmi_to == nil then bmi_to = 500 end
         bmi = Bmi.new(category: bmi_category, from: bmi_from, to: bmi_to)
         bmi.save!
         puts "BMI #{bmi.category} => (#{bmi.from} #{bmi.to}) added."

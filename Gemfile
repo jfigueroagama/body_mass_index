@@ -19,7 +19,7 @@ gem 'pg',             '0.21.0'
 gem 'devise',         '4.3.0'
 
 group :development, :test do
-  gem 'byebug',       '9.0.6', platform: :mri
+  gem 'byebug',       '9.1.0', platform: :mri
 end
 
 group :development do
